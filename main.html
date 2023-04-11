@@ -8,7 +8,7 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form method="get">
+	<form method="post">
 		<label for="name">Name
 			<input type="text" name="name" id="name" required>
 		</label>
@@ -16,12 +16,12 @@
 			<input type="email" name="email" id="email" required>
 		</label>
 		<label for="gender_m">Male
-			<input type="radio" name="male" id="gender_m" required>
+			<input type="radio" name="gender" id="gender_m" required>
 		</label>
 		<label for="gender_f">Female
-			<input type="radio" name="female" id="gender_f" required>
+			<input type="radio" name="gender" id="gender_f" required>
 		</label>
-		<label for="car">Car Brands 
+		<label for="cars">Car Brands 
 			<select id="car">
 				<option>BMW</option>
 				<option>Audi</option>
@@ -43,6 +43,7 @@
 		<label for="tos">I agree to the TOS.
 			<input type="checkbox" name="box" id="tos" required>
 		</label>
+		<button type="submit" name="submit">Submit</button>
 	</form>
 
 
